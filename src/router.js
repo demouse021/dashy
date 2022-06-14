@@ -17,6 +17,11 @@ import { isAuthEnabled, isLoggedIn, isGuestAccessEnabled } from '@/utils/Auth';
 import { makePageSlug, makePageName } from '@/utils/ConfigHelpers';
 import { metaTagData, startingView, routePaths } from '@/utils/defaults';
 import ErrorHandler from '@/utils/ErrorHandler';
+// Import helper functions, config data and defaults
+import { isAuthEnabled, isLoggedIn, isGuestAccessEnabled } from '@/utils/Auth';
+import { makePageSlug, makePageName } from '@/utils/ConfigHelpers';
+import { metaTagData, startingView, routePaths } from '@/utils/defaults';
+import ErrorHandler from '@/utils/ErrorHandler';
 
 // Import data from users conf file. Note that rebuild is required for this to update.
 import conf from '../public/conf.yml';
